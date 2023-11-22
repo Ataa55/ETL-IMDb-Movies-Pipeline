@@ -31,11 +31,13 @@ requirements.txt: Lists the Python dependencies required for the project.
 /docs: Contains project documentation or additional information.
 /sql: May include SQL scripts for database setup or other queries.
 /tests: Can contain unit tests or testing scripts.
+
 Getting Started:
 Install dependencies: pip install -r requirements.txt
 Configure Airflow with your settings, including database connection details.
 Run the Airflow scheduler and web server: airflow scheduler and airflow webserver
 Access the Airflow web UI to trigger the DAG and monitor the pipeline execution.
+
 Notes:
 The project uses Selenium, so ensure you have the appropriate WebDriver installed.
 Modify the database connection details in the DAG file (dag_ETL_Movies.py) according to your setup.
